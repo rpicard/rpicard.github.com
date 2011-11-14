@@ -1,4 +1,42 @@
-h1
-{
-	margin-top: 40px;
+body {
+	width: 960px;
+	margin: 0 auto;
+	font-family: Georgia, 'Nimbus Roman No9 L', 'Liberation Serif', serif;
+	font-size: 16px;
+	background: #0D2E4C;
+	color: #E6EAED;
+}
+
+h1 {
+	padding: 40px 0 30px;
+	margin: 0;
+	font-size: 75px;
+	line-height: 1.2em;
+	font-weight: normal;
+	font-family: Georgia, serif;
+}
+
+h2, h3 {
+	font-family: Arial, sans-serif;
+	text-shadow: 0 1px 1px #000;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin: 0 0 0.7em;
+	padding-top: 1.5em;
+}
+
+h3 {
+	font-size: 1.125em;
+	margin: 1.33em 0 0.88em;
+}
+
+a {
+	color: #FFA500;
+	text-decoration: none;
+}
+
+a:hover, a.active {
+	color: #FFC76D;
 }
